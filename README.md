@@ -1,40 +1,45 @@
 
-# Breast Cancer Prediction System
+# 🩺 Breast Cancer Prediction System
 
-## Project Overview
-The Breast Cancer Prediction System is a Machine Learning-based web application that predicts whether a breast tumor is Malignant or Benign using diagnostic features.
+A Machine Learning-based web application that predicts whether a breast tumor is **Malignant** or **Benign** using diagnostic features.
 
-The application uses three Machine Learning algorithms:
+Built with Python, Scikit-learn, and Streamlit.
+
+---
+
+## 📌 Project Overview
+
+The Breast Cancer Prediction System is an academic Machine Learning project developed to explore and compare different classification algorithms for breast cancer prediction.
+
+The system uses three Machine Learning models:
+
 - Logistic Regression
 - K-Nearest Neighbors (KNN)
 - Random Forest
 
-## Dataset
-- Dataset: Wisconsin Breast Cancer Diagnostic Dataset
-- Total Samples: 569
-- Total Features: 30
-- Training Samples: 455
-- Testing Samples: 114
+Users can make predictions, compare model performance, and explore evaluation results through an interactive dashboard.
 
-## Machine Learning Workflow
-1. Data Loading and Understanding
-2. Data Preprocessing
-3. Feature and Target Separation
-4. Train-Test Split
-5. Model Training
-6. Model Evaluation
-7. Model Saving
-8. Model Integration with Streamlit
+## 📊 Dataset
 
-## Model Performance
+**Wisconsin Breast Cancer Diagnostic Dataset**
+
+| Description | Value |
+|---|---:|
+| Total Samples | 569 |
+| Total Features | 30 |
+| Training Samples | 455 |
+| Testing Samples | 114 |
+
+## 🤖 Machine Learning Models
 
 | Model | Accuracy |
 |---|---:|
 | Logistic Regression | 98.25% |
-| KNN | 95.61% |
+| K-Nearest Neighbors | 95.61% |
 | Random Forest | 95.61% |
 
-## Application Features
+## ✨ Application Features
+
 - Interactive Dashboard
 - Breast Cancer Prediction
 - Prediction Confidence
@@ -45,7 +50,8 @@ The application uses three Machine Learning algorithms:
 - Prediction History
 - Clear Prediction History
 
-## Technologies Used
+## 🛠️ Technologies Used
+
 - Python
 - Pandas
 - NumPy
@@ -56,7 +62,7 @@ The application uses three Machine Learning algorithms:
 - Joblib
 - Jupyter Notebook
 
-## Project Structure
+## 📂 Project Structure
 
 ```text
 breast-cancer-prediction/
@@ -75,21 +81,42 @@ breast-cancer-prediction/
     └── random_forest_model.pkl
 ```
 
-## Installation
+## ⚙️ Installation
 
-Install the required libraries:
+**1. Clone the repository**
+
+```bash
+git clone git@github.com:nayeem-khan9/breast-cancer-prediction.git
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd breast-cancer-prediction
+```
+
+**3. Install dependencies**
 
 ```bash
 pip install streamlit pandas numpy scikit-learn matplotlib seaborn joblib
 ```
 
-## Run the Application
-
-Open the terminal inside the project directory and run:
+## ▶️ Run the Application
 
 ```bash
 streamlit run app.py
 ```
 
-## Disclaimer
+The application will open in your browser.
+
+## 📓 Jupyter Notebook
+
+The `breast_cancer_analysis.ipynb` notebook contains the complete Machine Learning workflow, including data preprocessing, model training, and evaluation.
+
+## ⚠️ Disclaimer
+
 This application is developed for educational and academic purposes only. It is not a medical diagnostic tool and should not replace professional medical advice.
+
+---
+
+**Developed by [Nayeem Khan](https://github.com/nayeem-khan9)**
